@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+}
+.header ul{
+    display: flex;
+}
+.header ul li{
+    padding: 0px 16px;
+    list-style-type: none;
+}
+.header ul li a{
+    text-decoration: none;
+}
+.search{
+    border: 1px solid grey;
+    border-radius: 50px;
+    font-size: 16px;
+}
+.header ul li a i{
+    font-size: 20px;
+    padding: 8px;
+}
+.header ul li a img{
+    width: 120px;
+}
+.search input{
+    border: none;
+    font-size: 15px;
+    padding-right: 200px;
+    border-right: 1px solid darkgray;
+}
+.header ul li a i:hover{
+    border-radius: 50px;
+    background-color: lightgray;
+}
+/* =====section===== */
+.main-wrapper{
+    display: flex;
+    height: 500px;
+}
+.aside{
+    flex: 1;
+    padding: 0px 16px 16px 16px;
+}
+.right{
+    flex: 5;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+.aside ul li a{
+    padding: 16px;
+    display: block;
+}
+.aside ul li a i{
+    padding-right: 16px;
+}
+.aside ul li:hover{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.aside ul{
+    border-bottom: 1px solid rgb(141, 141, 141);
+    padding: 8px 0px;
+}
+/* =====card====== */
+.card-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30.33%;
+    margin: 10px 0px;
+}
+.cardimg img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+.avatar img{
+    width: 100%;
+    border-radius: 50%;
+}
+.body{
+    display: flex;
+}
+.detail{
+    padding: 3px 3px;
+}
+.detail h3{
+    padding: 2px 0px;
+}
+.detail p{
+    padding: 2px 0px;
+}
+.search:focus-visible{
+    outline: 0px;
+}
